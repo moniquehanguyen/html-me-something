@@ -274,6 +274,10 @@ a {
     color: white;
 }
 
+.second-list li {
+    padding: 0px 10px;
+}
+
 a:hover {
     font-style: italic;
 }
