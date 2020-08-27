@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Stylesheet Begins */
+
+body {
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+body em {
+    font-style: italic;
+}
+
+body strong {
+    font-weight: bold;
+}
+
+header {
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+main {
+    margin: auto;
+    width: 600px;
+}
+
+#intro {
+    padding: 100px;
+    margin: 100px 0px;
+    background-image: url("images/intro-background.jpg");
+    font-size: 24px;
+}
+
+.definition {
+    margin: 0px 0px 60px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.definition h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pronounciation {
+    color: #999;
+}
+
+.special-text {
+    margin: 0 -200px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    color: white;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.divider {
+    width: 50px;
+    height: 3px;
+    background: black;
+    margin: auto;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+h3 {
+    padding: 26px;
+    margin: 0px 0px 20px;
+    background: black;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.gallery {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0px 100px;
+}
+
+.gallery img {
+    max-width: 75%;
+    padding: 5px;
+    align-self: center;
+}
+
+#outro {
+    text-align: center;
+    margin: 100px;
+    background: url("images/outro-gif.gif");
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff7dbe, 0 0 40px #fdbc42;
+}
+
+#outro p {
+    padding: 50px;
+}
+
+footer {
+    margin: 200px 0px 0px;
+    padding: 20px;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-style: italic;
+}
